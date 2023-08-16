@@ -1,0 +1,294 @@
+/* Import Fonts From Google */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&family=Noto+Serif:wght@700&display=swap');@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&family=Kanit:wght@300&family=Noto+Serif:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Fira+Sans:wght@500&family=Kanit:wght@300&family=Noto+Serif:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Angkor&family=Barriecito&family=Bungee+Spice&family=Fira+Sans:wght@500&family=Kanit:wght@300&family=Noto+Serif:wght@700&family=Zilla+Slab+Highlight:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Angkor&family=Barriecito&family=Bungee+Spice&family=Fira+Sans:wght@500&family=Kanit:wght@300&family=Noto+Serif:wght@700&family=Poppins:wght@500&family=Zilla+Slab+Highlight:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+  background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(188, 208, 238));
+}
+
+/* Main Index File Styling------------------------------------- */
+.container{
+    display: flex;
+}
+.infoContaner{
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: rgb(141, 51, 122); */
+    height: 58vh;
+    width: 80vw;
+    margin: 144px 50px;
+    margin-left: 100px;
+    justify-content: space-around;
+   
+}
+.sidebar{
+    background-color: #54748d; 
+    width: 300px;
+    height: 200lvh;
+    font-family: 'Fira Sans', sans-serif;
+    transition: transform 0.2s ease-in;  
+    position: absolute; 
+}
+.sidebar nav{
+    padding: 45px;  
+}
+.sidebar  nav  li{
+    list-style: none;
+    font-size: 25px;
+    padding: 33px 0;
+}
+.sidebar  nav  li a {
+    font-family: 'Angkor', cursive;
+    text-decoration: none;
+    color: #edf5e1;
+    margin : auto;
+}
+.sidebar  nav  li a:hover{
+    font-family: 'Angkor', cursive;
+    text-decoration: none;
+    color: #eeb51a;
+    margin : auto;
+    font-size: 1.75rem;
+}
+.main{
+ 
+    width: 90vw;
+}
+
+.devInfo{
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.hello{
+    font-size: 1.5em;
+    font-family: 'Poppins', sans-serif;
+}
+.name{
+    font-size: 2em;
+    font-weight: bold;
+    /* font-family: 'Bungee Spice', cursive; */
+    font-family: 'Angkor', cursive;
+    color:  #54748d;
+}
+.about{
+    font-size: 1.5em;
+    font-family: 'Poppins', sans-serif;
+}
+#element{
+    font-size: 2em;
+    font-weight: bold;
+    font-family: 'Bungee Spice', cursive;
+    font-family: 'Angkor', cursive;
+    color:  #54748d
+}
+.typed-cursor{
+    display: none;
+}
+
+.moreabout{
+    font-size: 0.8em;
+    margin-top: 25px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+/* Buttons Styling for all the buttons in this web -----------------------------*/
+
+.buttons{
+    margin-top: 35px;
+    font-size: 16px;
+}
+.btn{
+    padding: 8px 8px;
+    border-radius: 25px;
+    background-color: cornflowerblue;
+    color: white;
+    margin: 7px;
+    cursor: pointer;
+    font-size: 1em;
+    
+}
+.btn:hover{
+    background-color: white;
+    color: cornflowerblue;
+}
+.btn-primary{
+    padding: 7px 13px;
+    margin: 10px 0;
+    
+    margin: 20px;
+}
+.InputFile{
+    padding: 8px 8px;
+    border-radius: 25px;
+    background-color: cornflowerblue;
+    color: white;
+    margin: 15px;
+    cursor: pointer;
+    
+}
+
+/* Scroll Back To Top Button CSS */
+#moveToTop{
+    bottom: 0%;
+    margin-left: 105%;
+    cursor: pointer;
+}
+
+/* --------------------------------------------------------------------------- */
+.devPic img{
+    height: 58vh;
+}
+
+/* Contact Page CSS Starts From Here-------------------------------------------*/
+
+.contactForm{
+    font-family: 'Poppins', sans-serif;
+    margin: 0 34px;
+    margin-left: 100px;
+}
+.contactForm form{
+    margin: 0 30px;
+    
+}
+.contactForm h1{
+    font-family: 'Angkor', cursive;
+    text-align: center;
+}
+
+.contactForm  form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+.contactForm  form div input{
+    border-radius: 5px;
+    /* width: 26vw; */
+    margin: 6px 0 0 0;
+    padding: 4px;
+
+    
+}
+#emailHelp{
+    font-size: 10px;
+    color: rgb(218, 18, 18);
+    margin: 0 7px;
+}
+#form-check{
+    display: flex;
+    flex-direction: row;
+}
+#form-check input{
+    width: 13px;
+    margin: 4px;
+}
+/* Input File Styling */
+
+
+
+
+
+
+
+/* Blog Page CSS Starts From Here -----------------------------------------------*/
+.blogContainer{
+    margin-left: 100px;
+}
+.blogItem{
+    margin: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Global Styling For All Element -----------------------------------------------*/
+h1{
+    font-family: 'Angkor', cursive;
+    color:  #54748d;
+    margin: 20px;
+    font-size: 2em;
+   
+}
+h2{
+    font-family: 'Poppins', sans-serif;
+    color: #462727; 
+    margin: 20px;
+    font-size: 1.5em;
+   
+}
+p{
+    font-family: 'Poppins', sans-serif;
+    margin: 20px;
+    font-size: 1em;
+}
+a {
+    text-decoration: none;
+    color: #1c03ff;
+    margin : auto;
+}
+/* Intro Page CSS Starts From Here -----------------------------------------------*/
+.intro{
+    margin-left: 100px;
+}
+
+.menucancel{
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    cursor: pointer;
+    top: 5px;
+    left: 5px;
+}
+.sidebarHide{
+    transform: translate(-440px, 0px);
+    position: absolute;
+}
+.cross{
+    margin-left: 200px;
+    margin-top: 5px;
+}
+@media (max-width: 1600px) {
+    .devInfo{
+        font-size: 10px;
+    }
+    .devPic{
+        display: none;
+    }
+     .sidebar{
+        height: 200vh;
+    }  
+    .infoContaner, .intro, .blogContainer, .contactForm{
+        margin: 50px 8px;
+    }
+    .intro{
+        font-size: 8px;
+    }
+
+    .InputFile{
+        background-color: cornflowerblue;
+        padding: 5px 5px;
+        margin:0;
+        cursor: pointer;
+    }
+    .buttons{
+        font-size: 7px;
+    }
+    #moveToTop{
+        bottom: 0%;
+        margin-left: 0%;
+        cursor: pointer;
+    }
+    .contactForm h1{
+        font-size: 16px;
+    }
+    .contactForm form {
+        font-size: 12px;
+    }
+}

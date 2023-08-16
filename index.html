@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="sidebar sidebarHide">
+            <nav>
+                <ul>
+                    <li><a href="/"> Home</a></li>
+                    <li><a href="/intro.html">My Intro</a></li>
+                    <li><a href="/blog.html">Blog</a></li>
+                    <li><a href="/contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="main">
+
+            <div class="menucancel">
+                <div class="menu">
+                    <img src="../Assets/menu.gif" alt="" width="50px">
+                </div>
+                <div class="cross">
+                    <img src="../Assets/cancel.gif" alt="" width="50px">
+                </div>
+            </div>
+
+            <div class="infoContaner">
+                <div class="devInfo">
+                    <div class="hello">Hi, My Name is</div>
+                    <div class="name">Ahmad Nazeer</div>
+                    <div class="about">and I am a Passionate</div>
+                    <span id="element"></span>
+                    <div class="moreabout">
+                        Web developer and professional Forex trader. Gamer, anime enthusiast, and E-sports fan.
+                        Passionate about learning and creating.
+                        Welcome to my world
+                    </div>
+
+                    <div class="buttons">
+                        <a href="../CV/CV_Ahmed Nazeer.pdf" target="_blank">
+                            <button class="btn">Download CV</button>
+                        </a>
+                        <a href="contact.html">
+                            <button class="btn">Contact Me</button>
+                        </a>
+                    </div>
+                </div>
+                <div= class="devPic">
+                    <img src="../Assets/pic.png.png" alt="">
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Type Js for Animation -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer.', 'Trader.', 'Gamer.'],
+            typeSpeed: 80,
+            loop:true,
+        });
+    </script>
+    <script src="../JS/script.js"></script>
+</body>
+</html>
